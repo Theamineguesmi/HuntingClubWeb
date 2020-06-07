@@ -103,13 +103,21 @@
                         {% endfor %}
                         {% for commentaire in commentaire |reverse(true) %}
 
+                            {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+
                             <div class="row comment">                                <a type="like"  href="?like=1&comid={{commentaire.id}}"><i class="fa fa-chevron-circle-up"></i></a><br>&nbsp;
 
                                 <h1>{{ commentaire.nbjaime }}</h1>
                                 <a type="like"  href="?like=-1&comid={{commentaire.id}}"><i class="fa fa-chevron-circle-down"></i></a>
                                 <div class="col-md-3 col-lg-2 text-center text-md-left">
+                            {% else %}
+                                    <div class="row comment">
+                                        <a type="like"  href="{{ path('fos_user_security_login') }}"><i class="fa fa-chevron-circle-up"></i></a><br>&nbsp;
 
-
+                                        <h1>{{ commentaire.nbjaime }}</h1>
+                                        <a type="like"  href="{{ path('fos_user_security_login') }}"><i class="fa fa-chevron-circle-down"></i></a>
+                                        <div class="col-md-3 col-lg-2 text-center text-md-left">
+                            {% endif %}
 
                           <div class="group-text" > <h5>{{commentaire.idUser}}</h5> </div>
                             <p class="posted"><i class="fa fa-clock-o"></i>{{commentaire.dateAjout}}</p>
@@ -117,15 +125,14 @@
 
 
 
-
+                                    {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
                                     {% if (app.user.username == commentaire.idUser ) and ( is_granted('ROLE_ADMIN') == false) %}
-                                        <a href="{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}">Delete</a>
-
-                                        {% endif %}
+                                        <a href="{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}">Dele{% endif %}
 
                             {% if is_granted('ROLE_ADMIN') %}
                                 <a href="{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}">Delete</a>
                             {% endif %}
+                                    {% endif %}
 
                         </div>
                     </div>

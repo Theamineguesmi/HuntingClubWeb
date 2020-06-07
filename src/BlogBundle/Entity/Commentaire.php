@@ -25,7 +25,7 @@ class Commentaire
      * @var int
      *
      * @ORM\ManyToOne(targetEntity="Article")
-     * @ORM\JoinColumn(name="idArticle",referencedColumnName="id")
+     * @ORM\JoinColumn(name="idArticle",referencedColumnName="id", onDelete="CASCADE")
      */
     private $idArticle;
 
@@ -33,7 +33,7 @@ class Commentaire
      * @var int
      *
      * @ORM\ManyToOne(targetEntity="User")
-     * @ORM\JoinColumn(name="idUser",referencedColumnName="id")
+     * @ORM\JoinColumn(name="idUser",referencedColumnName="id", onDelete="CASCADE")
      */
     private $idUser;
 

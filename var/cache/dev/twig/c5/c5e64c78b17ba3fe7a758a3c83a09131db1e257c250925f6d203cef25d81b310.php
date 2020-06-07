@@ -297,61 +297,90 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
         foreach ($context['_seq'] as $context["_key"] => $context["commentaire"]) {
             // line 105
             echo "
-                            <div class=\"row comment\">                                <a type=\"like\"  href=\"?like=1&comid=";
+                            ";
             // line 106
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 106), "html", null, true);
-            echo "\"><i class=\"fa fa-chevron-circle-up\"></i></a><br>&nbsp;
+            if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("IS_AUTHENTICATED_REMEMBERED")) {
+                // line 107
+                echo "
+                            <div class=\"row comment\">                                <a type=\"like\"  href=\"?like=1&comid=";
+                // line 108
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 108), "html", null, true);
+                echo "\"><i class=\"fa fa-chevron-circle-up\"></i></a><br>&nbsp;
 
                                 <h1>";
-            // line 108
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "nbjaime", [], "any", false, false, false, 108), "html", null, true);
-            echo "</h1>
+                // line 110
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "nbjaime", [], "any", false, false, false, 110), "html", null, true);
+                echo "</h1>
                                 <a type=\"like\"  href=\"?like=-1&comid=";
-            // line 109
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 109), "html", null, true);
-            echo "\"><i class=\"fa fa-chevron-circle-down\"></i></a>
+                // line 111
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 111), "html", null, true);
+                echo "\"><i class=\"fa fa-chevron-circle-down\"></i></a>
                                 <div class=\"col-md-3 col-lg-2 text-center text-md-left\">
+                            ";
+            } else {
+                // line 114
+                echo "                                    <div class=\"row comment\">
+                                        <a type=\"like\"  href=\"";
+                // line 115
+                echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("fos_user_security_login");
+                echo "\"><i class=\"fa fa-chevron-circle-up\"></i></a><br>&nbsp;
 
-
-
+                                        <h1>";
+                // line 117
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "nbjaime", [], "any", false, false, false, 117), "html", null, true);
+                echo "</h1>
+                                        <a type=\"like\"  href=\"";
+                // line 118
+                echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("fos_user_security_login");
+                echo "\"><i class=\"fa fa-chevron-circle-down\"></i></a>
+                                        <div class=\"col-md-3 col-lg-2 text-center text-md-left\">
+                            ";
+            }
+            // line 121
+            echo "
                           <div class=\"group-text\" > <h5>";
-            // line 114
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "idUser", [], "any", false, false, false, 114), "html", null, true);
+            // line 122
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "idUser", [], "any", false, false, false, 122), "html", null, true);
             echo "</h5> </div>
                             <p class=\"posted\"><i class=\"fa fa-clock-o\"></i>";
-            // line 115
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "dateAjout", [], "any", false, false, false, 115), "html", null, true);
+            // line 123
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "dateAjout", [], "any", false, false, false, 123), "html", null, true);
             echo "</p>
                             <p>";
-            // line 116
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "contenu", [], "any", false, false, false, 116), "html", null, true);
+            // line 124
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["commentaire"], "contenu", [], "any", false, false, false, 124), "html", null, true);
             echo "</p>
-
 
 
 
                                     ";
-            // line 121
-            if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 121, $this->source); })()), "user", [], "any", false, false, false, 121), "username", [], "any", false, false, false, 121) == twig_get_attribute($this->env, $this->source, $context["commentaire"], "idUser", [], "any", false, false, false, 121)) && ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN") == false))) {
-                // line 122
-                echo "                                        <a href=\"";
-                echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 122)]), "html", null, true);
-                echo "\">Delete</a>
+            // line 128
+            if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("IS_AUTHENTICATED_REMEMBERED")) {
+                // line 129
+                echo "                                    ";
+                if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 129, $this->source); })()), "user", [], "any", false, false, false, 129), "username", [], "any", false, false, false, 129) == twig_get_attribute($this->env, $this->source, $context["commentaire"], "idUser", [], "any", false, false, false, 129)) && ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN") == false))) {
+                    // line 130
+                    echo "                                        <a href=\"";
+                    echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 130)]), "html", null, true);
+                    echo "\">Delete</a>
 
                                         ";
-            }
-            // line 125
-            echo "
+                }
+                // line 133
+                echo "
                             ";
-            // line 126
-            if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) {
-                // line 127
-                echo "                                <a href=\"";
-                echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 127)]), "html", null, true);
-                echo "\">Delete</a>
+                // line 134
+                if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) {
+                    // line 135
+                    echo "                                <a href=\"";
+                    echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 135)]), "html", null, true);
+                    echo "\">Delete</a>
                             ";
+                }
+                // line 137
+                echo "                                    ";
             }
-            // line 129
+            // line 138
             echo "
                         </div>
                     </div>
@@ -365,7 +394,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['commentaire'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 138
+        // line 147
         echo "
                         </div>
                     <!-- /.comment-->
@@ -399,7 +428,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
 
     public function getDebugInfo()
     {
-        return array (  369 => 138,  355 => 129,  349 => 127,  347 => 126,  344 => 125,  337 => 122,  335 => 121,  327 => 116,  323 => 115,  319 => 114,  311 => 109,  307 => 108,  302 => 106,  299 => 105,  294 => 104,  287 => 102,  274 => 101,  266 => 97,  263 => 96,  245 => 95,  242 => 94,  235 => 90,  231 => 89,  222 => 82,  217 => 81,  211 => 77,  206 => 74,  203 => 73,  200 => 72,  197 => 71,  194 => 70,  191 => 69,  189 => 68,  175 => 57,  165 => 50,  162 => 49,  160 => 48,  143 => 34,  129 => 23,  124 => 22,  118 => 20,  116 => 19,  112 => 18,  104 => 13,  100 => 12,  90 => 4,  80 => 3,  59 => 2,  36 => 1,);
+        return array (  398 => 147,  384 => 138,  381 => 137,  375 => 135,  373 => 134,  370 => 133,  363 => 130,  360 => 129,  358 => 128,  351 => 124,  347 => 123,  343 => 122,  340 => 121,  334 => 118,  330 => 117,  325 => 115,  322 => 114,  316 => 111,  312 => 110,  307 => 108,  304 => 107,  302 => 106,  299 => 105,  294 => 104,  287 => 102,  274 => 101,  266 => 97,  263 => 96,  245 => 95,  242 => 94,  235 => 90,  231 => 89,  222 => 82,  217 => 81,  211 => 77,  206 => 74,  203 => 73,  200 => 72,  197 => 71,  194 => 70,  191 => 69,  189 => 68,  175 => 57,  165 => 50,  162 => 49,  160 => 48,  143 => 34,  129 => 23,  124 => 22,  118 => 20,  116 => 19,  112 => 18,  104 => 13,  100 => 12,  90 => 4,  80 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -509,13 +538,21 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
                         {% endfor %}
                         {% for commentaire in commentaire |reverse(true) %}
 
+                            {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+
                             <div class=\"row comment\">                                <a type=\"like\"  href=\"?like=1&comid={{commentaire.id}}\"><i class=\"fa fa-chevron-circle-up\"></i></a><br>&nbsp;
 
                                 <h1>{{ commentaire.nbjaime }}</h1>
                                 <a type=\"like\"  href=\"?like=-1&comid={{commentaire.id}}\"><i class=\"fa fa-chevron-circle-down\"></i></a>
                                 <div class=\"col-md-3 col-lg-2 text-center text-md-left\">
+                            {% else %}
+                                    <div class=\"row comment\">
+                                        <a type=\"like\"  href=\"{{ path('fos_user_security_login') }}\"><i class=\"fa fa-chevron-circle-up\"></i></a><br>&nbsp;
 
-
+                                        <h1>{{ commentaire.nbjaime }}</h1>
+                                        <a type=\"like\"  href=\"{{ path('fos_user_security_login') }}\"><i class=\"fa fa-chevron-circle-down\"></i></a>
+                                        <div class=\"col-md-3 col-lg-2 text-center text-md-left\">
+                            {% endif %}
 
                           <div class=\"group-text\" > <h5>{{commentaire.idUser}}</h5> </div>
                             <p class=\"posted\"><i class=\"fa fa-clock-o\"></i>{{commentaire.dateAjout}}</p>
@@ -523,7 +560,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
 
 
 
-
+                                    {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
                                     {% if (app.user.username == commentaire.idUser ) and ( is_granted('ROLE_ADMIN') == false) %}
                                         <a href=\"{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}\">Delete</a>
 
@@ -532,6 +569,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
                             {% if is_granted('ROLE_ADMIN') %}
                                 <a href=\"{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}\">Delete</a>
                             {% endif %}
+                                    {% endif %}
 
                         </div>
                     </div>

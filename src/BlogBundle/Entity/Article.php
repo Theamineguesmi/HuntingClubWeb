@@ -32,7 +32,7 @@ class Article
     /**
      * @var string
      *
-     * @ORM\Column(name="contenu", type="string", length=2100)
+     * @ORM\Column(name="contenu", type="text", length=2100)
      */
     private $contenu;
 

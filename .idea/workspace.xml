@@ -2153,9 +2153,9 @@
       <command value="c require friendsofsymfony/user-bundle " />
       <command value="fos:user:create " />
       <command value="c require blackknight467/star-rating-bundle" />
-      <command value="s doctrine:schema:update --force" />
       <command value="c install" />
       <command value="c require knplabs/knp-paginator-bundle" />
+      <command value="s doctrine:schema:update --force" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -2206,7 +2206,7 @@
       <workItem from="1591390029942" duration="4346000" />
       <workItem from="1591403921136" duration="1917000" />
       <workItem from="1591408608805" duration="32960000" />
-      <workItem from="1591490198556" duration="5049000" />
+      <workItem from="1591490198556" duration="7713000" />
     </task>
     <servers />
   </component>
@@ -2283,27 +2283,31 @@
       <screen x="-1080" y="0" width="1080" height="1890" />
     </state>
     <state x="-647" y="389" key="FrameworkEditDialogDimensionKey/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258341637" />
-    <state width="1493" height="667" key="GridCell.Tab.0.bottom" timestamp="1591403876115">
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1591503251014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
     <state width="1037" height="364" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149356" />
     <state width="1493" height="667" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
     <state width="1506" height="187" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
-    <state width="1493" height="667" key="GridCell.Tab.0.center" timestamp="1591403876115">
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1591503251014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
     <state width="1037" height="364" key="GridCell.Tab.0.center/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149355" />
     <state width="1493" height="667" key="GridCell.Tab.0.center/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
     <state width="1506" height="187" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
-    <state width="1493" height="667" key="GridCell.Tab.0.left" timestamp="1591403876115">
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1591503251014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
     <state width="1037" height="364" key="GridCell.Tab.0.left/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149355" />
     <state width="1493" height="667" key="GridCell.Tab.0.left/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
     <state width="1506" height="187" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
-    <state width="1493" height="667" key="GridCell.Tab.0.right" timestamp="1591403876115">
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1591503251014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
     <state width="1037" height="364" key="GridCell.Tab.0.right/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149356" />
     <state width="1493" height="667" key="GridCell.Tab.0.right/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
     <state width="1506" height="187" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
@@ -2370,9 +2374,10 @@
       <screen x="-1080" y="0" width="1080" height="1890" />
     </state>
     <state x="-922" y="589" width="655" height="804" key="find.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590254099570" />
-    <state x="338" y="214" width="672" height="677" key="run.anything.popup" timestamp="1591403171233">
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup" timestamp="1591502321061">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591502321061" />
     <state x="-716" y="611" width="672" height="1615" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591392441290" />
     <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403171233" />
     <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1590492781919" />
