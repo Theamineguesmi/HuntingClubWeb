@@ -1,0 +1,102 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+    <div class="card callout callout-info" data-toggle="collapse" href="#collapseExample" style=" right: 0px;">
+        <div class="card-header">
+            <h5 class="card-title"> <i class="fas fa-info"></i> Note:</h5>
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="collapse" title="Collapse">
+                    <i class="fas fa-minus"></i></button>
+            </div></div>
+        <div class="card-body" style="display: block;">
+            <a href={{ path('article_liste') }}>Consuler le blog</a><br><br/>
+            <p>Vous avez {{ articles.getTotalItemCount }} Articles &nbsp;<br> Ici vous pouvez gérer vos <b> articles !</b></p>
+
+        </div>
+    </div>
+
+    <div class="float-right" align="right">
+
+        <div class="container">
+            <section class="content-header">
+                <div class="pagination pagination-sm m-0 float-left" align="right">
+                    {{ knp_pagination_render(articles) }}
+                </div>
+                <tr>
+                    <td>
+                        <a type="button" class="btn btn-info"  href="{{ path('article_new') }}" ><i class="fas fa-plus"></i> &nbsp;	Nouveau Article</a>
+                    </td>
+                </tr>
+
+
+
+            </section>
+
+        </div>
+        <div class="card">
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th class="content-header">{{ knp_pagination_sortable(articles, '#', 'bp.id') }}</th>
+                    <th class="content-header">{{ knp_pagination_sortable(articles, 'Titre', 'bp.titre') }}</th>
+
+                    <th style="width:400px" class="content-header">{{ knp_pagination_sortable(articles, 'Contenu', 'bp.contenu') }}</th>
+                    <th  class="content-header">{{ knp_pagination_sortable(articles, 'Ajouter', 'bp.dateAjout') }}</th>
+                    <th  class="content-header">{{ knp_pagination_sortable(articles, 'Modifier', 'bp.dateModif') }}</th>
+                    <th style="width:200px">Photopath</th>
+                    <th  style="width:200px" align="center" class="align-content-sm-center text-center"  >Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for article in articles %}
+                    <tr>
+                        <td><a href="{{ path('article_show', { 'id': article.id }) }}">{{ article.id }}</a></td>
+                        <td>{{ article.titre }}</td>
+                        <td>{{ article.contenu|slice(0, 500) }}</td>
+                        <td>{{ article.dateAjout }}</td>
+                        <td>{{ article.dateModif }}</td>
+                        <td style="width:200px">  <img class="img img-thumbnail"  src="..\..\..\web\images\{{article.photopath}}"></td>
+                        <td>
+
+                            <ul>
+                                <a class="btn bg-gradient-primary btn-sm" href="{{ path('article_show', { 'id': article.id }) }}"><i class="fas fa-file"></i></a>
+
+                                <a class="btn bg-gradient-primary btn-sm" href="{{ path('article_edit', { 'id': article.id }) }}">Editer</a>
+
+                                <a class="btn bg-gradient-danger btn-sm" href="{{ path('article_delete', { 'id': article.id }) }}"><i class="fas fa-trash"></i></a>
+
+                            </ul>    </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table></div>
+
+            <td>
+                <section class="content-header">
+                    <div class="pagination pagination-sm m-0 float-left" align="right">
+                        {{ knp_pagination_render(articles) }}
+                    </div>
+
+                    <section>
+            </td>
+            <td>
+                <section class="card" style="width: 18rem;">
+
+                    {{ form_start(form) }}
+
+                    <div >
+                        <span class="input-group-text" id="addon-wrapping">{{ form_label(form.nbco,'Nombre commentaire par page')}}</span>
+
+                        <span class="input-group-text" id="addon-wrapping">{{ form_widget(form.nbco, {'attr':{'class':'custom-select custom-select-sm'}})}}  &nbsp;   <input type="submit" class="btn btn-info" value="Create" />
+</span>
+                    </div>
+                    {{ form_end(form) }}
+
+                </section>
+            </td>
+
+    </div>
+
+
+{% endblock %}

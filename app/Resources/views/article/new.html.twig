@@ -1,0 +1,28 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+    <div class="form-group">
+        <div class="form-text">{{ form_label(form.titre)}}</div>
+        {{ form_widget(form.titre, {'attr':{'class':'form-control'}})}}
+
+
+
+        <div >{{ form_label(form.contenu)}}</div>
+        {{ form_widget(form.contenu, {'attr':{'class':'form-control'}})}}
+
+        <div class="form-text">{{ form_label(form.dateAjout)}}</div>
+        {{ form_widget(form.dateAjout, {'attr':{'class':'form-control'}})}}
+
+        <div class="form-text">{{ form_label(form.dateModif)}}</div>
+        {{ form_widget(form.dateModif, {'attr':{'class':'form-control'}})}}
+
+        <div class="form-text">{{ form_label(form.photopath)}}</div>
+        {{ form_widget(form.photopath, {'attr':{'class':'form-control'}})}}
+
+        <div class="container">  <input type="submit" class="btn btn-info" value="Create" />
+            <a class="btn btn-info" href="{{ path('article_index') }}">Back to the list</a></div><p></p>
+        {{ form_end(form) }}
+    </div>
+
+{% endblock %}

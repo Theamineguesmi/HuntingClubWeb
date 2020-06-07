@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}
+Blog
+{% endblock %}
+{% block body %}
+
+{% for article in articles |reverse(true) %}
+<div class="container">
+<div class="row">
+        <div class="col-lg-9">
+                <div class="post mb-5">
+                        <h2><a href="{{ path('article_post', { 'id': article.id }) }}">{{ article.titre }}</a></h2>
+
+                        <p class="date-comments"><a href="{{ path('article_post', { 'id': article.id }) }}"><i class="fa fa-calendar-o"></i> {{ article.dateajout }}</a><a href="{{ path('article_post', { 'id': article.id }) }}">
+                                        </a></p>
+                        <div class="image"><a href="{{ path('article_post', { 'id': article.id }) }}"> <img class="img-fluid "  src="..\..\..\web\images\{{article.photopath}}"></a></div>
+                       <br> <p class="post-intro" style="max-height:300px;max-width:1500px;;">{{ article.contenu|striptags|slice(0, 500)   }}</p>
+                        <p class="read-more"><a href="{{ path('article_post', { 'id': article.id }) }}" class="btn btn-outline-primary">Continue reading</a></p>
+                </div>
+                </div>
+        </div>
+        {% endfor %}
+    <nav class="  text-align: center;">
+        <ul class="pagination d-flex justify-content-center mb-5">
+            {{ knp_pagination_render(articles) }}</ul>
+    </nav>
+        {% endblock %}

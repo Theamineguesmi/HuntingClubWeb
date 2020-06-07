@@ -1,0 +1,150 @@
+{% extends 'base.html.twig' %}
+{% block title %} {{ article.titre }} | CODEHUNT {% endblock %}
+{% block body %}
+
+    <div class="container" xmlns="http://www.w3.org/1999/html">
+        <div class="row"> </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <nav aria-label="breadcrumb" class="d-flex justify-content-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ path('article_liste')}}">Blog</a></li>
+                        <li aria-current="page" class="breadcrumb-item active">{{ article.titre }}</li>
+                    </ol>
+                </nav>
+                <div class="row page-top">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h1>{{ article.titre }}</h1>
+                        {% if is_granted('ROLE_ADMIN') %}
+                        <a class="btn bg-gradient-primary btn-sm" href="{{ path('article_edit', { 'id': article.id }) }}">Editer</a>
+                        {% endif %}
+                        <p class="author-date-top">{{ article.dateajout }}</p>
+                        <img class="img-fluid"  src="..\..\..\web\images\{{article.photopath}}">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9"">
+            <p align="left">{{ article.contenu|raw  }}</p>
+        </div>
+        </div>
+        <div class="row">
+            <div id="blog-post" class="col-lg-9">
+                <div id="post-content">
+
+
+
+
+                <!-- /#post-content-->
+
+
+                    <div id="comments">
+                        {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+
+                        {{ form_start(form) }}
+                        <div class="form-group">
+
+
+                            <div class="col-md-12 text-right">
+                                <div >
+
+                                    {{ form_widget(form.contenu, {'attr':{'class':'form-control'}})}}
+                                </div><br/>
+                                <div>
+                                <button type="submit" class="btn btn-outline-primary" style="right: 100px;" value="Create" /> Post comment</button
+                            </div>
+
+                            <div class="col-md-12 text-right" align="right"  >
+                            </div>
+                            </div>
+
+
+                            {% if true == true %}
+                                {% do form.nbjaime.setRendered() %}
+                                {% do form.dateAjout.setRendered() %}
+                                {% do form.idUser.setRendered() %}
+                                {% do form.idArticle.setRendered() %}
+                                {% do form.dateModif.setRendered() %}
+
+
+                            {% endif %}
+
+
+
+                        </div>
+                        {{ form_end(form) }}
+                        {% else %} <!-- ken mech co !-->
+                        <div class="callout-info">
+
+
+
+
+
+                            <span href="{{ path('fos_user_security_login') }}" class="required"><h5  for="comment">
+                                    <a href="{{ path('fos_user_security_login') }}">Connectez-vous pour commenter !</a></h5></span>
+                            </div><br/><br/>
+
+                        {% endif %}
+
+                        {% for commentaire in commentaire |reverse(true) %}
+                            {% if loop.first %}
+                                <h4>Nombre de commentaire : {{loop.length}}</h4>
+
+
+                            {% endif %}
+                        {% else %}
+                            <h4>Soyez le premier à commenter </h4>
+                        {% endfor %}
+                        {% for commentaire in commentaire |reverse(true) %}
+
+                            <div class="row comment">                                <a type="like"  href="?like=1&comid={{commentaire.id}}"><i class="fa fa-chevron-circle-up"></i></a><br>&nbsp;
+
+                                <h1>{{ commentaire.nbjaime }}</h1>
+                                <a type="like"  href="?like=-1&comid={{commentaire.id}}"><i class="fa fa-chevron-circle-down"></i></a>
+                                <div class="col-md-3 col-lg-2 text-center text-md-left">
+
+
+
+                          <div class="group-text" > <h5>{{commentaire.idUser}}</h5> </div>
+                            <p class="posted"><i class="fa fa-clock-o"></i>{{commentaire.dateAjout}}</p>
+                            <p>{{commentaire.contenu}}</p>
+
+
+
+
+                                    {% if (app.user.username == commentaire.idUser ) and ( is_granted('ROLE_ADMIN') == false) %}
+                                        <a href="{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}">Delete</a>
+
+                                        {% endif %}
+
+                            {% if is_granted('ROLE_ADMIN') %}
+                                <a href="{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}">Delete</a>
+                            {% endif %}
+
+                        </div>
+                    </div>
+
+
+
+
+
+                        {% endfor %}
+
+                        </div>
+                    <!-- /.comment-->
+
+                    </div>
+                    <!-- /.comment-->
+                </div>
+                <!-- /#comments-->
+
+                </div>
+
+            </div>
+{% endblock %}

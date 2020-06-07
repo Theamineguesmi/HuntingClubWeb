@@ -1,0 +1,56 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+    <div class="form-group">
+        {{ form_start(edit_form) }}
+
+
+        <div class="form-text">{{ form_label(edit_form.titre)}}</div>
+        {{ form_widget(edit_form.titre, {'attr':{'class':'form-control'}})}}
+
+
+
+        <div class="form-text">{{ form_label(edit_form.contenu)}}</div>
+        {{ form_widget(edit_form.contenu,{'attr':{'class':'form-control'} })}}
+
+        <div class="form-text">{{ form_label(edit_form.dateAjout)}}</div>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+            </div>
+
+            {{ form_widget(edit_form.dateAjout,{'attr':{'class':'form-control'} })}}
+        </div>
+        <div class="form-text">{{ form_label(edit_form.dateModif)}}</div>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+            </div>
+
+            {{ form_widget(edit_form.dateModif,{'attr':{'class':'form-control'} })}}
+        </div>
+        <div class="form-text">{{ form_label(edit_form.photopath)}}</div>
+        {{ form_widget(edit_form.photopath,{'attr':{'class':'foo'} })}}
+
+
+
+
+
+
+
+        <div class="form-group">
+            <p></p>
+            <input class="btn btn-info" type="submit" value="Modifier"/>
+
+            {{ form_end(edit_form) }}
+
+            <input class="btn btn-danger" type="submit" value="Supprimer">
+
+
+
+        </div></div>
+    
+
+{% endblock %}

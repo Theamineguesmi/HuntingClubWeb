@@ -1,0 +1,36 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+
+
+    {{ form_start(form) }}
+<div class="form-group">
+    <div class="form-text">{{ form_label(form.idArticle)}}</div>
+    {{ form_widget(form.idArticle, {'attr':{'class':'form-control'}})}}
+
+    <div class="form-text">{{ form_label(form.idUser)}}</div>
+    {{ form_widget(form.idUser, {'attr':{'class':'form-control'}})}}
+
+    <div class="form-text">{{ form_label(form.contenu)}}</div>
+    {{ form_widget(form.contenu, {'attr':{'class':'form-control'}})}}
+
+
+    {% if true == true %}
+    {% do form.nbjaime.setRendered() %}
+        {% do form.dateAjout.setRendered() %}
+
+        {% do form.dateModif.setRendered() %}
+    {{ form_widget(form.nbjaime, {'attr':{'class':'form-control'}})}}
+    {% endif %}
+
+
+
+
+    <div class="container">  <input type="submit" class="btn btn-info" value="Create" />
+    <a class="btn btn-info" href="{{ path('commentaire_index') }}">Back to the list</a></div><p></p>
+    {{ form_end(form) }}
+</div>
+
+
+
+{% endblock %}
