@@ -39,7 +39,7 @@ final class Versions
   'helios-ag/fm-elfinder-bundle' => '9.3@8856ad127e4b7383926cf46713fdd373cdcfc530',
   'incenteev/composer-parameter-handler' => 'v2.1.4@084befb11ec21faeadcddefb88b66132775ff59b',
   'jdorn/sql-formatter' => 'v1.2.17@64990d96e0959dff8e059dfcdc1af130728d92bc',
-  'jms/metadata' => '2.2.0@6671a723aa90a63aa25fa082155bb128155eb0bc',
+  'jms/metadata' => '2.3.0@6eb35fce7142234946d58d13e1aa829e9b78b095',
   'knplabs/knp-components' => 'v1.3.10@fc1755ba2b77f83a3d3c99e21f3026ba2a1429be',
   'knplabs/knp-paginator-bundle' => 'v3.0.0@06100a8f3a1e878d3d2d5d06a61c4e648f94aed7',
   'kriswallsmith/assetic' => 'v1.4.0@e911c437dbdf006a8f62c2f59b15b2d69a5e0aa1',
@@ -79,7 +79,7 @@ final class Versions
   'vich/uploader-bundle' => '1.11.0@8ef4935f5535bb4e967f30ee95dff358c7c0705e',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.41@f926812c6b3d456dfbd13c706293f49e9a10bc2a',
-  'symfony/framework-standard-edition' => '3.4.x-dev@d9d11fa446097451676d6e2d3f268e9dd2b68d09',
+  'symfony/framework-standard-edition' => '3.4.x-dev@439606b374e0b5fde4161b97e2a9b98d45256e22',
 );
 
     private function __construct()
