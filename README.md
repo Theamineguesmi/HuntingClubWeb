@@ -1,77 +1,54 @@
-Symfony Standard Edition
-========================
+<h1><span style="font-family:Verdana,Geneva,sans-serif"><span style="color:#16a085"><span style="font-size:24px"><strong>Hunting Club Web</strong></span></span></span></h1>
 
-**WARNING**: This distribution does not support Symfony 4. See the
-[Installing & Setting up the Symfony Framework][15] page to find a replacement
-that fits you best.
+<hr />
+<p><strong>WARNING :</strong>&nbsp;ce projet est en Symfony 3.4 sous libre (ref: github MIT).&nbsp;</p>
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+<p>Ce projet est cr&eacute;er dans un but p&eacute;dagogique les membres du projet ce r&eacute;serve tout droit de modification/suppresion sans forc&eacute;ement avoir un but particulier que leurs &eacute;tudes, projet proffesionel ou dans un cadre personnel.</p>
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+<h1><strong>Le Projet et son but&nbsp;:&nbsp;</strong></h1>
 
-What's inside?
---------------
+<hr />
+<p><strong>Hunting Club </strong>v.web ce veut un site e-commerce pour les passion&eacute;s de chasses ou sont disponibles tout le mat&eacute;riel n&eacute;c&eacute;ssaire &agrave; la pratique. mais il ce veut aussi etre une communaut&eacute; qui &eacute;change avec l&#39;actualit&eacute; via notre blog et nos divers r&eacute;f&eacute;rencement d&#39;&eacute;v&eacute;nements.</p>
 
-The Symfony Standard Edition is configured with the following defaults:
+<p>ceci est un projet p&eacute;dagogique est signe notre premier pas dans l&#39;univers Symfony&nbsp;notre projet ne ce veut pas <strong>Pro&nbsp;</strong>(loin de la).&nbsp;</p>
 
-  * An AppBundle you can use to start coding;
+<p>&nbsp;</p>
 
-  * Twig as the only configured template engine;
+<h1><strong>&nbsp;Membre de l&#39;&eacute;quipe et module associ&eacute; :&nbsp;</strong></h1>
 
-  * Doctrine ORM/DBAL;
+<hr />
+<ul>
+	<li><a href="https://www.facebook.com/bjouini">Boubaker Seddik </a><strong><a href="https://www.facebook.com/bjouini">JOUINI</a> |&nbsp;</strong>Blog ( Gestion Articles et Commentaires)</li>
+</ul>
 
-  * Swiftmailer;
+<p>&nbsp;</p>
 
-  * Annotations enabled for everything.
+<ul>
+	<li><a href="https://www.facebook.com/TheAmineGuesmi">Amine </a><strong><a href="https://www.facebook.com/TheAmineGuesmi">GUESMI</a>&nbsp;|&nbsp;</strong>Produit ( Gestion des produits)&nbsp;</li>
+</ul>
 
-It comes pre-configured with the following bundles:
+<p>&nbsp;</p>
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+<ul>
+	<li><a href="https://www.facebook.com/hammami.ahmed.3">Ahmed <strong>HAMMEMI</strong></a>&nbsp;| Commandes ( Gestion des commandes)&nbsp;</li>
+</ul>
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+<p>&nbsp;</p>
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+<ul>
+	<li><a href="https://www.facebook.com/maher.mdr09">Maher <strong>SNOUSSI</strong></a>&nbsp;| Utilisateurs (Gestion des utilisateurs)&nbsp;</li>
+</ul>
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+<p>&nbsp;</p>
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
+<ul>
+	<li><a href="https://www.facebook.com/ahmedi5345">AH MED</a> | Evenements ( Getions des evenement)&nbsp;&nbsp;</li>
+</ul>
 
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
+<p>&nbsp;</p>
 
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
+<ul>
+	<li><a href="https://www.facebook.com/siala.hatem">Hatem SIALA</a> | Support ( Gestions des tickets support)</li>
+</ul>
 
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
-
-Enjoy!
-
-[1]:  https://symfony.com/doc/3.4/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.4/doctrine.html
-[8]:  https://symfony.com/doc/3.4/templating.html
-[9]:  https://symfony.com/doc/3.4/security.html
-[10]: https://symfony.com/doc/3.4/email.html
-[11]: https://symfony.com/doc/3.4/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
-[15]: https://symfony.com/doc/current/setup.html
+<p>&nbsp;</p>
