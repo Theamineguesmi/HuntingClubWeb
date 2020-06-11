@@ -1,0 +1,47 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+    <div class="form-group">
+
+        {{ form_start(edit_form) }}
+        <div class="form-group">
+            <div class="form-text">{{ form_label(edit_form.idArticle)}}</div>
+            {{ form_widget(edit_form.idArticle, {'attr':{'class':'form-control','readonly': 'true'}})}}
+
+            <div class="form-text">{{ form_label(edit_form.idUser)}}</div>
+            {{ form_widget(edit_form.idUser, {'attr':{'class':'form-control','readonly': 'true'}})}}
+
+            <div class="form-text">{{ form_label(edit_form.contenu)}}</div>
+            {{ form_widget(edit_form.contenu, {'attr':{'class':'form-control'}})}}
+
+            <div class="form-text">{{ form_label(edit_form.dateAjout)}}</div>
+            {{ form_widget(edit_form.dateAjout, {'attr':{'class':'form-control','readonly': 'true'}})}}
+
+            <div class="form-text">{{ form_label(edit_form.dateModif)}}</div>
+            {{ form_widget(edit_form.dateModif, {'attr':{'class':'form-control','readonly': 'true'}})}}
+
+            <div class="form-text">{{ form_label(edit_form.nbjaime)}}</div>
+
+            {{ form_widget(edit_form.nbjaime, {'attr':{'class':'form-control','readonly': 'true'}})}}
+
+
+
+
+
+
+<div class="form-group">
+<p></p>
+    <input class="btn btn-info" type="submit" value="Edit"/>
+
+    {{ form_end(edit_form) }}
+
+
+            <a class="btn btn-info" href="{{ path('commentaire_index') }}">Back to the list</a>
+
+            {{ form_start(delete_form) }}
+
+        <input class="btn btn-danger" type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+
+     </div></div>
+{% endblock %}

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09223580-94ba-40ee-8101-203968f3d09d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/parameters.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/elfinder/elfinder-built.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/elfinder/elfinder-built.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/require-built.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/require-built.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/require.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/require.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/require.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/require.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/bootstrap.php.cache" beforeDir="false" afterPath="$PROJECT_DIR$/var/bootstrap.php.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi.legacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/appDevDebugProjectContainer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getAnnotations_CacheService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getAnnotations_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_RequestAttributeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_RequestService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_ServiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_SessionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getArgumentResolver_VariadicService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getCacheClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getCache_DefaultClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getCache_GlobalClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getCache_SystemClearerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConfig_Resource_SelfCheckingResourceCheckerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_CommandLoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_AboutService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_AssetsInstallService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_CacheClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_CachePoolClearService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_CachePoolPruneService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_CacheWarmupService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_ConfigDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_ConfigDumpReferenceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_ContainerDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_DebugAutowiringService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_EventDispatcherDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_FormDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_RouterDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_RouterMatchService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_TranslationDebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_TranslationUpdateService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_XliffLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_Command_YamlLintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getConsole_ErrorListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDebug_DumpListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDebug_FileLinkFormatter_UrlFormatService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDefaultControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDeprecated_Form_RegistryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDeprecated_Form_Registry_CsrfService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrineCache_ContainsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrineCache_DeleteCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrineCache_FlushCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrineCache_StatsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_CacheClearMetadataCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_CacheClearQueryCacheCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_CacheClearResultCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_CacheCollectionRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_ClearEntityRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_ClearQueryRegionCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_DatabaseCreateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_DatabaseDropCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_DatabaseImportCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Dbal_ConnectionFactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Dbal_DefaultConnectionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_EnsureProductionSettingsCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_GenerateEntitiesCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_MappingConvertCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_MappingImportCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_MappingInfoCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_Cache_Provider_Cache_Doctrine_Orm_Default_MetadataService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_Cache_Provider_Cache_Doctrine_Orm_Default_QueryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_Cache_Provider_Cache_Doctrine_Orm_Default_ResultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_DefaultEntityListenerResolverService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_DefaultEntityManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_DefaultEntityManager_PropertyInfoExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_DefaultManagerConfiguratorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_ProxyCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_Orm_Validator_UniqueService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_QueryDqlCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_QuerySqlCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_SchemaCreateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_SchemaDropCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_SchemaUpdateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getDoctrine_SchemaValidateCommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFilesystemService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFmElfinder_Configurator_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFmElfinder_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFmElfinder_Loader_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_RegistryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_ResolvedTypeFactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_ServerParamsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_CsrfService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Form_DataCollectorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Form_HttpFoundationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Form_TransformationFailureHandlingService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Form_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Repeated_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Submit_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeExtension_Upload_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeGuesser_DoctrineService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_TypeGuesser_ValidatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_BirthdayService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_ButtonService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_CheckboxService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_ChoiceService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_CollectionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_CountryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_CurrencyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_DateService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_DatetimeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_EmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_EntityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_FileService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_FormService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_HiddenService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_IntegerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_LanguageService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_LocaleService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_MoneyService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_NumberService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_PasswordService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_PercentService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_RadioService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_RangeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_RepeatedService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_ResetService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_SearchService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_SubmitService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_TextService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_TextareaService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_TimeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_TimezoneService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getForm_Type_UrlService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosCkEditor_Command_InstallerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosCkEditor_ConfigurationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosCkEditor_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosCkEditor_InstallerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_ChangePassword_ControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_ChangePassword_Form_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_ChangePassword_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_ActivateUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_ChangePasswordService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_CreateUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_DeactivateUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_DemoteUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Command_PromoteUserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Listener_AuthenticationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Listener_FlashService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Listener_ResettingService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_MailerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Profile_ControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Profile_Form_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Profile_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Registration_ControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Registration_Form_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Registration_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Resetting_ControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Resetting_Form_FactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Resetting_Form_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Security_ControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Security_InteractiveLoginListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Security_LoginManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_UserManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_UserProvider_UsernameService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_UsernameFormTypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Util_PasswordUpdaterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Util_TokenGeneratorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFosUser_Util_UserManipulatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFragment_HandlerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFragment_Renderer_HincludeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getFragment_Renderer_InlineService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getKernel_ClassCache_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getKnpPaginatorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getKnpPaginator_Subscriber_FiltrationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getKnpPaginator_Subscriber_PaginateService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getKnpPaginator_Subscriber_SortableService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getMonolog_Handler_NullInternalService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getMonolog_Logger_ConsoleService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getMonolog_Logger_DoctrineService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getMonolog_Logger_SecurityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getMonolog_Logger_TemplatingService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getRedirectControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getRouter_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getRouting_LoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_AccessListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_AccessMapService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Access_AuthenticatedVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Access_ExpressionVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Access_RoleHierarchyVoterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_AuthenticationUtilsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_GuardHandlerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_Listener_Anonymous_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_Listener_Form_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_Provider_Anonymous_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_Provider_Dao_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Authentication_SessionStrategy_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_ChannelListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Command_UserPasswordEncoderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_ContextListener_0Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Csrf_TokenManagerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Csrf_TokenStorageService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_EncoderFactoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Firewall_Map_Context_DevService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Firewall_Map_Context_MainService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_HttpUtilsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_PasswordEncoderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_RequestMatcher_00qf1z7Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_RequestMatcher_Zfhj2lwService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_UserCheckerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_UserValueResolverService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_User_Provider_Concrete_InMemoryService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSecurity_Validator_UserPasswordService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSensioDistribution_SecurityCheckerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSensioDistribution_SecurityChecker_CommandService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getServiceLocator_Sr6ctxeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getServicesResetterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSessionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSession_HandlerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSession_Storage_FilesystemService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSession_Storage_MetadataBagService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSession_Storage_NativeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSession_Storage_PhpBridgeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getStarRating_TypeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_EmailSender_ListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_DefaultService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_Default_Plugin_MessageloggerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_Default_SpoolService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_Default_TransportService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_Default_Transport_EventdispatcherService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getSwiftmailer_Mailer_Default_Transport_RealService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplateControllerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplatingService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_CacheWarmer_TemplatePathsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_FilenameParserService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_FinderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_Helper_LogoutUrlService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_Helper_SecurityService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTemplating_LoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_CsvService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_IniService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_JsonService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_MoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_PhpService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_PoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_QtService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_ResService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_XliffService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Dumper_YmlService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_ExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Extractor_PhpService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_LoaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_CsvService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_DatService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_IniService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_JsonService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_MoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_PhpService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_PoService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_QtService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_ResService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_XliffService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_Loader_YmlService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_ReaderService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_WarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTranslation_WriterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Command_DebugService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Command_LintService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Controller_ExceptionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Controller_PreviewErrorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_ExceptionListenerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Form_RendererService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Runtime_HttpkernelService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_TemplateCacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getTwig_Translation_ExtractorService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getValidator_EmailService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getValidator_ExpressionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getValidator_Mapping_CacheWarmerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getVarDumper_CliDumperService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebProfiler_Controller_ExceptionService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebProfiler_Controller_ProfilerService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebProfiler_Controller_RouterService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebServer_Command_ServerLogService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebServer_Command_ServerRunService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebServer_Command_ServerStartService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebServer_Command_ServerStatusService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/getWebServer_Command_ServerStopService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/ContainerDilyosi/removed-ids.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/annotations.map" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/annotations.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/sessions/dev/sess_caqp2ri9ni329366bou0tnmq85" beforeDir="false" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_caqp2ri9ni329366bou0tnmq85" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/UPGRADING.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/UPGRADING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/AdvancedMetadataFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/AdvancedMetadataFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/CacheInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/CacheInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/DoctrineCacheAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/DoctrineCacheAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/FileCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/FileCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/PsrCacheAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Cache/PsrCacheAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/ClassHierarchyMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/ClassHierarchyMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/ClassMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/ClassMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AbstractFileDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AbstractFileDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AdvancedDriverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AdvancedDriverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AdvancedFileLocatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/AdvancedFileLocatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/DriverChain.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/DriverChain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/DriverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/DriverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/FileLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/FileLocator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/FileLocatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/FileLocatorInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/LazyLoadingDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/Driver/LazyLoadingDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/MergeableClassMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/MergeableClassMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/MergeableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/MergeableInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/MetadataFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/MetadataFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/MetadataFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/MetadataFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/MethodMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/MethodMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/NullMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/NullMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/jms/metadata/src/PropertyMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/jms/metadata/src/PropertyMetadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="fbf36fb7-12a0-4d7d-a500-c950ef5e6802" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\wamp64\www\Pi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony_compare" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/ckeditor-bundle" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/blackknight467/star-rating-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/components/jqueryui" />
+      <path value="$PROJECT_DIR$/vendor/components/jquery" />
+      <path value="$PROJECT_DIR$/vendor/components/elfinder" />
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/studio-42/elfinder" />
+      <path value="$PROJECT_DIR$/vendor/helios-ag/fm-elfinder-bundle" />
+      <path value="$PROJECT_DIR$/vendor/robloach/component-installer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1ZxT4vGCiyPW0THK3fYkNqzUpeY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pi" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Pi\web\bundles" />
+      <recent name="C:\wamp64\www\Pi\web" />
+      <recent name="C:\wamp64\www\Pi\app\Resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Pi\web" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="s doctrine:database:create" />
+      <command value="s doctrine:generate:form" />
+      <command value="s doctrine:generate:form BlogBundle:Article" />
+      <command value="s generate:controller" />
+      <command value="s doctrine:schema:create" />
+      <command value="bin/console generate:bundle " />
+      <command value="s generate:bundle" />
+      <command value="s doctrine:generate:entity FrontBundle:Article" />
+      <command value="bin/console generate:entity" />
+      <command value="s doctrine:generate:entity" />
+      <command value="s doctrine:generate:crud" />
+      <command value="s C:\wamp64\www\Pi\src\BlogBundle\Form\ArticleType.php" />
+      <command value="s generate:command composer require vich/uploader-bundle" />
+      <command value="dir" />
+      <command value="composer require vich/uploader-bundle" />
+      <command value="s  composer require vich/uploader-bundle " />
+      <command value="s" />
+      <command value="c dump-autoload" />
+      <command value="c  composer require vich/uploader-bundle " />
+      <command value="composer require vich/uploader-bundle " />
+      <command value="c symfony_requirements" />
+      <command value="c vich/uploader-bundle&quot;: &quot;^1.8" />
+      <command value="c require vich/uploader-bundle: &quot;^1.8&quot;" />
+      <command value="c require vich/uploader-bundle: ^1.8" />
+      <command value="c self-update" />
+      <command value="c browse" />
+      <command value="c update" />
+      <command value="c require vich/uploader-bundle" />
+      <command value="c require vich/uploader-bundle 1.8" />
+      <command value="s doctrine:schema:drop --force" />
+      <command value="s doctrine:generate:entity BlogBundle:Article" />
+      <command value="c require friendsofsymfony/ckeditor-bundle" />
+      <command value="require friendsofsymfony/user-bundle &quot;~2.0&quot;" />
+      <command value="c require friendsofsymfony/user-bundle &quot;~2.0&quot; " />
+      <command value="c require friendsofsymfony/user-bundle &quot;~2&quot;" />
+      <command value="c require paragonie/random_compat" />
+      <command value="composer require paragonie/random_compat ^2.0" />
+      <command value="c require paragonie/random_compat 2.0" />
+      <command value="c require paragonie/random_compat ^2.0" />
+      <command value="c require friendsofsymfony/user-bundle" />
+      <command value="c require friendsofsymfony/user-bundle &quot;~2.0&quot;" />
+      <command value="c require friendsofsymfony/user-bundle " />
+      <command value="fos:user:create " />
+      <command value="c require blackknight467/star-rating-bundle" />
+      <command value="c install" />
+      <command value="c require knplabs/knp-paginator-bundle" />
+      <command value="s doctrine:schema:update --force" />
+    </option>
+  </component>
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$/bin" />
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.ArticleController.php">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ArticleController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/BlogBundle/Controller/ArticleController.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.ArticleController.php" />
+      <item itemvalue="PHPUnit.phpunit.xml.dist" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.ArticleController.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09223580-94ba-40ee-8101-203968f3d09d" name="Default Changelist" comment="" />
+      <created>1585779557682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585779557682</updated>
+      <workItem from="1585779567474" duration="3895000" />
+      <workItem from="1585783531828" duration="28970000" />
+      <workItem from="1589282450014" duration="21953000" />
+      <workItem from="1589566992299" duration="1855000" />
+      <workItem from="1590096565395" duration="19163000" />
+      <workItem from="1590255157618" duration="1948000" />
+      <workItem from="1590257125143" duration="26907000" />
+      <workItem from="1590852512991" duration="4415000" />
+      <workItem from="1591042426687" duration="4280000" />
+      <workItem from="1591120398276" duration="18325000" />
+      <workItem from="1591154454269" duration="113000" />
+      <workItem from="1591221171584" duration="29143000" />
+      <workItem from="1591390029942" duration="4346000" />
+      <workItem from="1591403921136" duration="1917000" />
+      <workItem from="1591408608805" duration="32960000" />
+      <workItem from="1591490198556" duration="7713000" />
+      <workItem from="1591508508703" duration="164000" />
+      <workItem from="1591508804507" duration="26000" />
+      <workItem from="1591508841828" duration="3542000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-821" y="634" key="#ArticleController.php" timestamp="1590254483168">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-821" y="634" key="#ArticleController.php/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590254483168" />
+    <state x="-960" y="601" key="#CLI_Interpreters" timestamp="1590258012432">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-960" y="601" key="#CLI_Interpreters/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258012432" />
+    <state x="-948" y="604" key="#Notifications" timestamp="1591120116042">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-948" y="604" key="#Notifications/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591120116042" />
+    <state x="-833" y="536" key="#PHP" timestamp="1590258022056">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-833" y="536" key="#PHP/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258022056" />
+    <state x="-1080" y="601" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590258024452">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-1080" y="601" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258024452" />
+    <state x="525" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585806058681">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="525" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1585806058681" />
+    <state x="446" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1591239147481">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="446" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591239147481" />
+    <state x="446" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1585784174994" />
+    <state x="371" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585785753111">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="371" y="173" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1585785753111" />
+    <state x="-664" y="875" key="#com.jetbrains.php.framework.ui.FailedToParseDialog" timestamp="1591120042298">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-664" y="875" key="#com.jetbrains.php.framework.ui.FailedToParseDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591120042298" />
+    <state x="-1017" y="-292" key="CommitChangelistDialog2" timestamp="1591505330403">
+      <screen x="-1080" y="-832" width="1080" height="1890" />
+    </state>
+    <state x="-1017" y="-292" key="CommitChangelistDialog2/0.0.1536.834/-1080.-832.1080.1890@-1080.-832.1080.1890" timestamp="1591505330403" />
+    <state x="-883" y="680" width="745" height="241" key="ComposerCompositePathDialog" timestamp="1590258408391">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-883" y="680" width="745" height="241" key="ComposerCompositePathDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258408391" />
+    <state x="280" y="300" key="ComposerCompositePathDialog/0.0.1536.834@0.0.1536.834" timestamp="1585780062332" />
+    <state x="336" y="261" key="FileChooserDialogImpl" timestamp="1591552907829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="336" y="261" key="FileChooserDialogImpl/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591552907829" />
+    <state x="-934" y="670" key="FileChooserDialogImpl/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258463639" />
+    <state x="336" y="261" key="FileChooserDialogImpl/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591498631552" />
+    <state x="335" y="163" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585780089361" />
+    <state x="-1080" y="48" key="FileDocumentManager.FileCacheConflict" timestamp="1591121272998">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-1080" y="48" key="FileDocumentManager.FileCacheConflict/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591121272998" />
+    <state x="-647" y="389" key="FrameworkEditDialogDimensionKey" timestamp="1590258341637">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-647" y="389" key="FrameworkEditDialogDimensionKey/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258341637" />
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom" timestamp="1591503251014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
+    <state width="1037" height="364" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149356" />
+    <state width="1493" height="667" key="GridCell.Tab.0.bottom/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
+    <state width="1506" height="187" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
+    <state width="1493" height="233" key="GridCell.Tab.0.center" timestamp="1591503251014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.center/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
+    <state width="1037" height="364" key="GridCell.Tab.0.center/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149355" />
+    <state width="1493" height="667" key="GridCell.Tab.0.center/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
+    <state width="1506" height="187" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
+    <state width="1493" height="233" key="GridCell.Tab.0.left" timestamp="1591503251014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.left/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
+    <state width="1037" height="364" key="GridCell.Tab.0.left/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149355" />
+    <state width="1493" height="667" key="GridCell.Tab.0.left/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
+    <state width="1506" height="187" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
+    <state width="1493" height="233" key="GridCell.Tab.0.right" timestamp="1591503251014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="233" key="GridCell.Tab.0.right/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591503251014" />
+    <state width="1037" height="364" key="GridCell.Tab.0.right/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591393149356" />
+    <state width="1493" height="667" key="GridCell.Tab.0.right/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403876115" />
+    <state width="1506" height="187" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1590493057318" />
+    <state width="1037" height="688" key="GridCell.Tab.1.bottom" timestamp="1591222364319">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.bottom/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591222364319" />
+    <state width="1037" height="688" key="GridCell.Tab.1.center" timestamp="1591222364319">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.center/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591222364319" />
+    <state width="1037" height="688" key="GridCell.Tab.1.left" timestamp="1591222364318">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.left/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591222364318" />
+    <state width="1037" height="688" key="GridCell.Tab.1.right" timestamp="1591222364319">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="1037" height="688" key="GridCell.Tab.1.right/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591222364319" />
+    <state x="-743" y="760" key="NewPhpClassDialog" timestamp="1591127574382">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-743" y="760" key="NewPhpClassDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591127574382" />
+    <state x="-808" y="751" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1590258180659">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-808" y="751" key="PHPComposerAddDependencyDialogDimensionKey/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258180659" />
+    <state width="254" height="449" key="RunAnythingAction_Filter_Popup" timestamp="1590253661750">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="254" height="449" key="RunAnythingAction_Filter_Popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590253661750" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.834@0.0.1536.834" timestamp="1585782142857" />
+    <state x="113" y="63" key="SettingsEditor" timestamp="1591552839804">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="113" y="63" key="SettingsEditor/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591552839804" />
+    <state x="-1039" y="588" key="SettingsEditor/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258470755" />
+    <state x="150" y="93" key="SettingsEditor/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591492066258" />
+    <state x="113" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591532572563" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591121077599">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591121077599" />
+    <state width="709" height="398" key="SwitcherDM/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1590766440961" />
+    <state x="-852" y="734" key="SymfonyPathDialog" timestamp="1590258465268">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-852" y="734" key="SymfonyPathDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590258465268" />
+    <state x="324" y="324" key="SymfonyPathDialog/0.0.1536.834@0.0.1536.834" timestamp="1585780097932" />
+    <state x="-753" y="551" key="com.intellij.ide.util.TipDialog" timestamp="1590255203993">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-753" y="551" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590255203993" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1590096607183" />
+    <state x="-674" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591234629150">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-674" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591234629150" />
+    <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1590495238046" />
+    <state x="502" y="49" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1585806660685">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="502" y="49" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1585806660685" />
+    <state x="-922" y="589" width="655" height="804" key="find.popup" timestamp="1590254099570">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-922" y="589" width="655" height="804" key="find.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590254099570" />
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup" timestamp="1591502321061">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591502321061" />
+    <state x="-716" y="611" width="672" height="1615" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591392441290" />
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403171233" />
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1590492781919" />
+    <state x="-777" y="351" width="672" height="1537" key="search.everywhere.popup" timestamp="1589379634280">
+      <screen x="-1080" y="0" width="1080" height="1890" />
+    </state>
+    <state x="-777" y="351" width="672" height="1537" key="search.everywhere.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1589379634280" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1585790113176" />
+  </component>
+</project>

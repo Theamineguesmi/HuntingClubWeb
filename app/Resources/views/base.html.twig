@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+        <!-- Font Awesome CSS-->
+        <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
+        <!-- Google fonts - Montserrat for headings, Raleway for copy-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+        <!-- owl carousel-->
+        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.css') }}">
+        <!-- theme stylesheet-->
+        <link rel="stylesheet" href="{{ asset('css/style.default.css') }}" id="theme-stylesheet">
+        <!-- Custom stylesheet - for your changes-->
+        <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
+    <link href="{{ asset('css/style.default.css') }}" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="{{ asset('bundles/rating.css') }}" />
+
+    {% endblock %}
+
+
+</head>
+<body>
+
+{% block header %}
+    <header class="header">
+        <div class="topbar">
+            <div class="container">
+                <div class="topbar__content row">
+                    <div class="col-md-3 ml-auto d-md-block d-none">
+                        <form class="topbar__search">
+                            <div class="input-group"><span class="input-group-btn">
+                    <button type="button" class="btn"><i class="fa fa-search"></i></button></span>
+                                <input type="text" placeholder="SEARCH" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 topbar__logo"><a href="index-2.html"><img src="img/logo.png" alt="" class="topbar__logo__normal d-none d-md-inline-block"><img src="img/logo-small.png" alt="" class="topbar__logo__small d-inline-block d-md-none"></a></div>
+                    <div class="col-md-3 ml-auto d-md-block d-none">
+                        <div class="topbar__cart"><a href="basket.html" class="btn btn-outline-dark"><i class="fa fa-shopping-cart"></i><span>3 Items in cart</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-center">
+                <button type="button" data-toggle="collapse" data-target=".collapsed-search" class="navbar-toggler btn btn-outline-dark"><i class="fa fa-search"></i><span class="sr-only">Toggle navigation</span></button><a href="basket.html" class="navbar-toggler btn btn-outline-dark"><i class="fa fa-shopping-cart"></i><span class="d-none d-lg-block">3 Items in cart</span></a>
+                <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn btn-outline-dark"><i class="fa fa-align-justify"></i><span class="sr-only">Toggle navigation</span></button>
+                <div id="navigation" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav mx-auto">
+                        <li class="nav-item dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav-link active">Homepage <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="index-2.html" class="nav-link">Homepage - Big Slider</a></li>
+                                <li class="nav-item"><a href="index2.html" class="nav-link">Homepage - Intro Image</a></li>
+                                <li class="nav-item"><a href="index3.html" class="nav-link">Homepage - Small Slider</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="category.html" class="nav-link">Shop</a></li>
+                        <li class="nav-item"><a href="text.html" class="nav-link">About</a></li>
+                        <li class="nav-item dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Theme Content <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a href="index-2.html" class="nav-link">Homepage - Big Slider</a></li>
+                                <li class="nav-item"><a href="index2.html" class="nav-link">Homepage - Intro Image</a></li>
+                                <li class="nav-item"><a href="index3.html" class="nav-link">Homepage - Small Slider</a></li>
+                                <li class="nav-item"><a href="category.html" class="nav-link">Shop</a></li>
+                                <li class="nav-item"><a href="category-full.html" class="nav-link">Shop - Full Width</a></li>
+                                <li class="nav-item"><a href="detail.html" class="nav-link">Product</a></li>
+                                <li class="nav-item"><a href="basket.html" class="nav-link">Shopping Cart</a></li>
+                                <li class="nav-item"><a href="checkout1.html" class="nav-link">Checkout (4 steps)</a></li>
+                                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                                <li class="nav-item"><a href="post.html" class="nav-link">Blog Post</a></li>
+                                <li class="nav-item"><a href="text.html" class="nav-link">Text page</a></li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="collapsed-search collapse">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Search" class="form-control">
+                            <div class="input-group-append">
+                                <button type="button" class="btn outline-dark"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- Header  -->
+    {% endblock %}
+
+
+
+    {% block body %}
+
+
+    {% endblock %}
+
+{% block footer %}
+    <footer class="footer">
+        <div class="footer__block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <h4>About Robert Hunter</h4>
+                        <p>Robert Hunter is a Bootstrap 4 e-commerce theme developed in the middle of Europe by <a href="http://ondrejsvestka.cz/">Ondrej Svestka</a>.</p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4>This Theme</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="index-2.html">Home</a></li>
+                            <li><a href="category.html">Shop</a></li>
+                            <li><a href="detail.html">Product Detail</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="post.html">Blog Post</a></li>
+                            <li><a href="text.html">Text page</a></li>
+                            <li><a href="basket.html">Shopping Cart + Order process </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h4>Popular Categories</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Snakes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4>Let's be Friends</h4>
+                        <p class="social"><a href="#" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a><a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4>News and Updates</h4>
+                        <p>Sign up to get the latest on sales, new releases and more …</p>
+                        <form class="footer__newsletter">
+                            <div class="input-group">
+                                <input type="text" placeholder="Enter your email address" class="form-control">
+                                <div class="input-group-append">
+                                    <div class="input-group-text p-0 bg-white">
+                                        <button type="button" class="btn btn-light"><i class="fa fa-send"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-left">
+                        <p>&copy; 2018 Robert Hunter Ltd.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-right mt-3 mt-md-0">
+                        <p class="credit">Theme by <a href="http://ondrejsvestka.cz/">Ondrej Svestka</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <!-- footer  -->
+{% endblock %}
+
+{% block js %}
+    <script src="{{ asset('bundles/jquery.min.js') }}"></script>
+    <script src="{{ asset('bundles/rating.js') }}"></script>
+{% endblock %}
+</body>
+
+</html>

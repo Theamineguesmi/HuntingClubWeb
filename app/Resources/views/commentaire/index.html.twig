@@ -1,0 +1,113 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+
+    <div class="card callout callout-info" data-toggle="collapse" href="#collapseExample" style=" right: 0px;">
+        <div class="card-header">
+            <h5 class="card-title"> <i class="fas fa-info"></i> Note:</h5>
+        <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="collapse" title="Collapse">
+                <i class="fas fa-minus"></i></button>
+        </div></div>
+        <div class="card-body" style="display: block;">
+            Vous avez <b>{{ commentaires.getTotalItemCount }} Commentaires </b> &nbsp;            <br/>
+
+
+            <p>Ici vous pouvez gérer les <u> Commentaires des Utilisateurs !</u></p>
+
+        </div>
+    </div>
+
+    <div class="float-right" align="right">
+        <div class="container">
+            <section class="content-header">
+                <div class="pagination pagination-sm m-0 float-left" align="right">
+                    {% for commentaire in commentaires  %}
+                        {% if loop.first %}
+                    {{ knp_pagination_render(commentaires) }}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <section>
+                <tr>
+                    <td>
+                        <a type="button" class="btn btn-info"  href="{{ path('commentaire_new') }}" ><i class="fas fa-plus"></i> &nbsp;Nouveau Commentaire</a>
+                    </td>
+
+
+
+
+                </tr>
+
+                </section>
+            </section>
+        </div>
+    <div class="card">
+    <table class="table table-hover "><br>
+
+        <thead>
+            <tr>
+                <th class="content-header">{{ knp_pagination_sortable(commentaires, '#', 'bp.id') }}</th>
+                <th class="content-header">Article</th>
+                <th class="content-header">Utilisateur</th>
+                <th style="width:400px" class="content-header">Contenu</th>
+                <th  class="content-header">{{ knp_pagination_sortable(commentaires, 'Ajouter', 'bp.dateAjout') }}</th>
+                <th  class="content-header">{{ knp_pagination_sortable(commentaires, 'Modifier', 'bp.dateModif') }}</th>
+                <th class="content-header">{{ knp_pagination_sortable(commentaires, 'Likes', 'bp.nbjaime') }}</th>
+                <th  style="width:200px" align="center" class="align-content-sm-center text-center" >Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for commentaire in commentaires  %}
+            <tr>
+                <td><a href="{{ path('commentaire_show', { 'id': commentaire.id }) }}">{{ commentaire.id }}</a></td>
+                <td>{{ commentaire.idArticle.titre }}</td>
+                <td>{{ commentaire.idUser }}</td>
+                <td>{{ commentaire.contenu }}</td>
+                <td>{{ commentaire.dateAjout }}</td>
+                <td>{{ commentaire.dateModif }}</td>
+                <td>{{ commentaire.nbjaime}}</td>
+                <td>
+
+        <ul>
+                  <a class="btn bg-gradient-primary btn-sm" href="{{ path('commentaire_show', { 'id': commentaire.id }) }}"><i class="fas fa-file"></i></a>
+
+                   <a class="btn bg-gradient-primary btn-sm" href="{{ path('commentaire_edit', { 'id': commentaire.id }) }}"><i class="fas fa-pencil-alt"></i></a>
+
+           <a class="btn bg-gradient-danger btn-sm" href="{{ path('commentaire_delete', { 'id': commentaire.id }) }}"><i class="fas fa-trash"></i></a>
+
+        </ul>    </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table></div>
+        <tr>
+            <td>
+                <section class="content-header">
+                    <div class="pagination pagination-sm m-0 float-left" align="right">
+                        {{ knp_pagination_render(commentaires) }}
+                    </div>
+
+                    <section>
+            </td>
+            <td>
+                <section class="card" style="width: 18rem;">
+
+                    {{ form_start(form) }}
+
+                    <div >
+                        <span class="input-group-text" id="addon-wrapping">{{ form_label(form.nbco,'Nombre commentaire par page')}}</span>
+
+                        <span class="input-group-text" id="addon-wrapping">{{ form_widget(form.nbco, {'attr':{'class':'custom-select custom-select-sm'}})}}  &nbsp;   <input type="submit" class="btn btn-info" value="Create" />
+</span>
+                    </div>
+                    {{ form_end(form) }}
+
+                </section>
+            </td>
+        </tr>
+    </div>
+
+
+{% endblock %}

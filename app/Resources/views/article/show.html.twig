@@ -1,0 +1,74 @@
+{% extends 'template.html.twig' %}
+
+{% block body %}
+    <table>
+        <tbody>
+        <div class="card">
+
+            <h3 class="card-header">ID</h3>
+            <div class="card-body">
+                {{ article.id }}
+            </div>
+        </div>&nbsp;&nbsp;
+        <div class="card">
+            <h3 class="card-header">titre</h3>
+            <div class="card-body">
+                {{ article.titre }}
+            </div>
+        </div>&nbsp;&nbsp;
+
+        </div>&nbsp;&nbsp;
+
+        <div class="card">
+
+            <h3 class="card-header">Dateajout</h3>
+            <div class="card-body">
+                {{ article.dateAjout }}
+            </div>
+        </div>&nbsp;&nbsp;
+
+
+        <div class="card">
+
+            <h3 class="card-header ">Datemodif</h3>
+            <div class="card-body">
+                {{ article.dateModif }}
+            </div>
+        </div>&nbsp;&nbsp;
+
+
+        <div class="card">
+
+            <h3 class="card-header">photo</h3>
+            <div class="card-body">
+                {{ article.photopath }}
+            </div>
+        </div>&nbsp;&nbsp;</tbody>
+        <br><tbody><tr><td>
+                <div class="card">
+
+                    <h3 class="card-header">Contenu</h3>
+                    <div class="card-body">
+                        {{ article.contenu|raw }}
+                    </div>
+                </div></td></tr></tbody>
+        <!-- /.card-body -->
+
+
+
+
+        </div>
+        </tbody>
+    </table>
+    <br>
+    &nbsp;&nbsp;
+    <a  class="btn btn-info"  href="{{ path('article_index') }}">Retour a la liste</a> &nbsp;
+
+    <a  class="btn btn-info"  href="{{ path('article_edit', { 'id': article.id }) }}">Modifier</a>&nbsp;
+
+    {{ form_start(delete_form) }}
+    <input type="button" class="btn btn-danger"  type="submit" value="Supprimer">
+    {{ form_end(delete_form) }}
+
+
+{% endblock %}
