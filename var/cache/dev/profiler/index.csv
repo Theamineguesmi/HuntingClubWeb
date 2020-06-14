@@ -241,3 +241,6 @@ a062f7,::1,GET,http://localhost/pi/web/app_dev.php/blog/BackOffice/https://code.
 2ab7d1,::1,GET,http://localhost/pi/web/app_dev.php/blog/stat,1592163492,,200
 307375,::1,GET,http://localhost/pi/web/app_dev.php/blog/BackOffice/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css,1592163493,255891,200
 255891,::1,GET,http://localhost/pi/web/app_dev.php/blog/BackOffice/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css,1592163493,,404
+7239a4,::1,GET,http://localhost/pi/web/app_dev.php/blog/stat,1592164010,,200
+c75906,::1,GET,http://localhost/pi/web/app_dev.php/blog/BackOffice/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css,1592164011,3f2168,200
+3f2168,::1,GET,http://localhost/pi/web/app_dev.php/blog/BackOffice/https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css,1592164011,,404
