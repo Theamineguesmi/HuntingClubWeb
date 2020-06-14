@@ -24,3 +24,7 @@ fos_user:
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
     prefix: /
+
+find_id:
+    path: /find/{id}
+    defaults: { _controller: BlogBundle:Default:find}

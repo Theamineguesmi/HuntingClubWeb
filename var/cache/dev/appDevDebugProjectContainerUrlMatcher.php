@@ -146,6 +146,19 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         elseif (0 === strpos($pathinfo, '/blog')) {
+            if (0 === strpos($pathinfo, '/blog/all')) {
+                // allCx
+                if ('/blog/allCx' === $pathinfo) {
+                    return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::allActioncom',  '_route' => 'allCx',);
+                }
+
+                // all
+                if ('/blog/all' === $pathinfo) {
+                    return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::allAction',  '_route' => 'all',);
+                }
+
+            }
+
             // article_index
             if ('/blog/admin' === $pathinfo) {
                 return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::indexAction',  '_route' => 'article_index',);
@@ -169,6 +182,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             // article_new
             if ('/blog/new' === $pathinfo) {
                 return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::newAction',  '_route' => 'article_new',);
+            }
+
+            // article_stat
+            if ('/blog/stat' === $pathinfo) {
+                return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::statistiqueAction',  '_route' => 'article_stat',);
             }
 
             // article_show
@@ -441,6 +459,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $ret;
         }
         not_fos_user_security_logout:
+
+        // find_id
+        if (0 === strpos($pathinfo, '/find') && preg_match('#^/find/(?P<id>[^/]++)$#sD', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, ['_route' => 'find_id']), array (  '_controller' => 'BlogBundle\\Controller\\DefaultController::findAction',));
+        }
 
         if ('/' === $pathinfo && !$allow) {
             throw new Symfony\Component\Routing\Exception\NoConfigurationException();

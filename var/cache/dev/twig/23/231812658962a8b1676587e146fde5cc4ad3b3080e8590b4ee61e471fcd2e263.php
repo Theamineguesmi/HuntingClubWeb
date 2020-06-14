@@ -48,7 +48,7 @@ class __TwigTemplate_f38d332182d2a141e73fa51f3b17990058ab84e1958ca6825313ffe7267
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@WebProfiler/Collector/form.html.twig"));
 
         // line 3
-        $macros["__internal_602b25b77fb76a01c71c656c2301796740437e6f0036807e247dd0504eef4577"] = $this->macros["__internal_602b25b77fb76a01c71c656c2301796740437e6f0036807e247dd0504eef4577"] = $this;
+        $macros["__internal_fdf8e40c5e2ac86d718cf5937ab60a2e4a5668c13775673d4be0f22b6c6887f6"] = $this->macros["__internal_fdf8e40c5e2ac86d718cf5937ab60a2e4a5668c13775673d4be0f22b6c6887f6"] = $this;
         // line 1
         $this->parent = $this->loadTemplate("@WebProfiler/Profiler/layout.html.twig", "@WebProfiler/Collector/form.html.twig", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
@@ -367,7 +367,7 @@ class __TwigTemplate_f38d332182d2a141e73fa51f3b17990058ab84e1958ca6825313ffe7267
             foreach ($context['_seq'] as $context["formName"] => $context["formData"]) {
                 // line 196
                 echo "                ";
-                echo twig_call_macro($macros["__internal_602b25b77fb76a01c71c656c2301796740437e6f0036807e247dd0504eef4577"], "macro_form_tree_entry", [$context["formName"], $context["formData"], true], 196, $context, $this->getSourceContext());
+                echo twig_call_macro($macros["__internal_fdf8e40c5e2ac86d718cf5937ab60a2e4a5668c13775673d4be0f22b6c6887f6"], "macro_form_tree_entry", [$context["formName"], $context["formData"], true], 196, $context, $this->getSourceContext());
                 echo "
             ";
             }
@@ -399,7 +399,7 @@ class __TwigTemplate_f38d332182d2a141e73fa51f3b17990058ab84e1958ca6825313ffe7267
             foreach ($context['_seq'] as $context["formName"] => $context["formData"]) {
                 // line 203
                 echo "                ";
-                echo twig_call_macro($macros["__internal_602b25b77fb76a01c71c656c2301796740437e6f0036807e247dd0504eef4577"], "macro_form_tree_details", [$context["formName"], $context["formData"], twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["collector"]) || array_key_exists("collector", $context) ? $context["collector"] : (function () { throw new RuntimeError('Variable "collector" does not exist.', 203, $this->source); })()), "data", [], "any", false, false, false, 203), "forms_by_hash", [], "any", false, false, false, 203), twig_get_attribute($this->env, $this->source, $context["loop"], "first", [], "any", false, false, false, 203)], 203, $context, $this->getSourceContext());
+                echo twig_call_macro($macros["__internal_fdf8e40c5e2ac86d718cf5937ab60a2e4a5668c13775673d4be0f22b6c6887f6"], "macro_form_tree_details", [$context["formName"], $context["formData"], twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["collector"]) || array_key_exists("collector", $context) ? $context["collector"] : (function () { throw new RuntimeError('Variable "collector" does not exist.', 203, $this->source); })()), "data", [], "any", false, false, false, 203), "forms_by_hash", [], "any", false, false, false, 203), twig_get_attribute($this->env, $this->source, $context["loop"], "first", [], "any", false, false, false, 203)], 203, $context, $this->getSourceContext());
                 echo "
             ";
                 ++$context['loop']['index0'];

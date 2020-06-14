@@ -6,13 +6,17 @@ use BlogBundle\Entity\Article;
 use BlogBundle\Entity\Commentaire;
 use BlogBundle\Entity\User;
 use BlogBundle\Form\ArticleType;
+use CMEN\GoogleChartsBundle\GoogleCharts\Charts\PieChart;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
-
+use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+use Symfony\Component\Serializer\Serializer;
+use Symfony\Component\Serializer\Normalizer\DateTimeNormalizer;
+use Symfony\Component\HttpFoundation\JsonResponse;
 /**
  * Article controller.
  *
@@ -20,6 +24,33 @@ use Symfony\Component\HttpFoundation\Request;
  */
 class ArticleController extends Controller
 {
+
+    /**
+     *
+     * @Route("/allCx", name="allCx")
+     * @Method("GET")
+     */
+    public function allActioncom()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $documents = $em->getRepository('BlogBundle:Commentaire')->findAll();
+        $serializer = new Serializer([new DateTimeNormalizer('d.m.Y'),new ObjectNormalizer()]);
+        $formatted = $serializer->normalize($documents);
+        return new JsonResponse($formatted);
+    }
+    /**
+     *
+     * @Route("/all", name="all")
+     * @Method("GET")
+     */
+    public function allAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $documents = $em->getRepository('BlogBundle:Article')->findAll();
+        $serializer = new Serializer([new DateTimeNormalizer('d.m.Y'),new ObjectNormalizer()]);
+        $formatted = $serializer->normalize($documents);
+        return new JsonResponse($formatted);
+    }
 
     /**
      * Lists all article entities.
@@ -127,6 +158,48 @@ class ArticleController extends Controller
         ));
     }
 
+
+    /**
+     * Creates a new article entity.
+     *
+     * @Route("/stat", name="article_stat")
+     * @Method({"GET", "POST"})
+     */
+    public function statistiqueAction() {
+        $pieChart = new PieChart();
+        $em= $this->getDoctrine()->getManager();
+        $query = $em->createQuery('SELECT c  ,UPPER(n.titre) as titre ,COUNT(c.id) as num FROM BlogBundle:Commentaire c
+        join BlogBundle:Article n with n.id=c.idArticle GROUP BY c.idArticle');
+        $reservations=$query->getScalarResult();
+        $data= array();
+        $stat=['news', 'id'];
+        $i=0;
+        array_push($data,$stat);
+
+        $ln= count($reservations);
+        for ($i=0 ;$i<count($reservations);$i++){
+            $stat=array();
+            //array_push($stat,$reservations[$i]['titre'],$reservations[$i]['num']/$ln);
+            $stat=[$reservations[$i]['titre'],$reservations[$i]['num']*100/$ln];
+
+            array_push($data,$stat);
+        }
+        $pieChart->getData()->setArrayToDataTable( $data );
+        $pieChart->getOptions()->setTitle('Article les plus commenter');
+        $pieChart->getOptions()->setHeight(500);
+        $pieChart->getOptions()->setWidth(600);
+        $pieChart->getOptions()->getTitleTextStyle()->setBold(true);
+        $pieChart->getOptions()->getTitleTextStyle()->setColor('#000000');
+        $pieChart->getOptions()->getTitleTextStyle()->setItalic(true);
+        $pieChart->getOptions()->getTitleTextStyle()->setFontName('Arial');
+        $pieChart->getOptions()->getTitleTextStyle()->setFontSize(20);
+
+
+        return $this->render('article/stat.html.twig',
+            array('piechart' => $pieChart)
+
+        );
+    }
     /**
      * Finds and displays a article entity.
      *
@@ -157,9 +230,11 @@ class ArticleController extends Controller
         $query->setParameter('id',$id);
         $commentaire = $query->getResult();
 
+
         $commentaires = new Commentaire();
         $form = $this->createForm('BlogBundle\Form\CommentaireType', $commentaires);
         $form->handleRequest($request);
+
 
 
 
@@ -177,6 +252,8 @@ class ArticleController extends Controller
 
             return $this->redirectToRoute('article_post', array('id' => $article->getId()));
         }
+
+
 
         $kk=$request->query->get('comid');
         if($kk!=null) {
@@ -197,6 +274,8 @@ class ArticleController extends Controller
         }
 
         return $this->render('article/frontPost.html.twig', array(
+
+
             'commentaire' => $commentaire,
             'form' => $form->createView(),
             'article' => $article,

@@ -109,6 +109,10 @@ class ComposerStaticInit3713bb082124b28c82b1ee52e9c9b557
             'Doctrine\\Bundle\\DoctrineCacheBundle\\' => 36,
             'Doctrine\\Bundle\\DoctrineBundle\\' => 31,
         ),
+        'C' => 
+        array (
+            'CMEN\\GoogleChartsBundle\\' => 24,
+        ),
         'B' => 
         array (
             'Behat\\Transliterator\\' => 21,
@@ -346,6 +350,10 @@ class ComposerStaticInit3713bb082124b28c82b1ee52e9c9b557
         'Doctrine\\Bundle\\DoctrineBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/doctrine-bundle',
+        ),
+        'CMEN\\GoogleChartsBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cmen/google-charts-bundle',
         ),
         'Behat\\Transliterator\\' => 
         array (

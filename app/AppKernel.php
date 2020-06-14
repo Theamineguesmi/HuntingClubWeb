@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new blackknight467\StarRatingBundle\StarRatingBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
             new FM\ElfinderBundle\FMElfinderBundle(),
+            new CMEN\GoogleChartsBundle\CMENGoogleChartsBundle(),
 
         ];
 

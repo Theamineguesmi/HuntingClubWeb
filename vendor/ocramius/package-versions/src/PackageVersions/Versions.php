@@ -16,6 +16,7 @@ final class Versions
     public const VERSIONS          = array (
   'behat/transliterator' => 'v1.3.0@3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc',
   'blackknight467/star-rating-bundle' => 'v2.0.1@5a95fe9cef75f8b3e3e763dc92b020091103d5b1',
+  'cmen/google-charts-bundle' => '3.2.1@da6baee249d841407bdfecee69a94402ae50afd2',
   'components/elfinder' => '3.1.3@c1bd0d6ee831ffade55824bea430c2812aa8e859',
   'components/jquery' => '3.5.1@b33e8f0f9a1cb2ae390cf05d766a900b53d2125b',
   'components/jqueryui' => '1.12.1@44ecf3794cc56b65954cc19737234a3119d036cc',
@@ -79,7 +80,7 @@ final class Versions
   'vich/uploader-bundle' => '1.11.0@8ef4935f5535bb4e967f30ee95dff358c7c0705e',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.41@f926812c6b3d456dfbd13c706293f49e9a10bc2a',
-  'symfony/framework-standard-edition' => '3.4.x-dev@439606b374e0b5fde4161b97e2a9b98d45256e22',
+  'symfony/framework-standard-edition' => '3.4.x-dev@2ae9c8115984ffe80e935267cf0156ad9589a325',
 );
 
     private function __construct()

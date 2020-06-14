@@ -362,25 +362,23 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
                     // line 130
                     echo "                                        <a href=\"";
                     echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 130)]), "html", null, true);
-                    echo "\">Delete</a>
-
-                                        ";
+                    echo "\">Dele";
                 }
-                // line 133
+                // line 131
                 echo "
                             ";
-                // line 134
+                // line 132
                 if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) {
-                    // line 135
+                    // line 133
                     echo "                                <a href=\"";
-                    echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 135)]), "html", null, true);
+                    echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("commentaire_deleteFront", ["id" => twig_get_attribute($this->env, $this->source, $context["commentaire"], "id", [], "any", false, false, false, 133)]), "html", null, true);
                     echo "\">Delete</a>
                             ";
                 }
-                // line 137
+                // line 135
                 echo "                                    ";
             }
-            // line 138
+            // line 136
             echo "
                         </div>
                     </div>
@@ -394,7 +392,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['commentaire'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 147
+        // line 145
         echo "
                         </div>
                     <!-- /.comment-->
@@ -428,7 +426,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
 
     public function getDebugInfo()
     {
-        return array (  398 => 147,  384 => 138,  381 => 137,  375 => 135,  373 => 134,  370 => 133,  363 => 130,  360 => 129,  358 => 128,  351 => 124,  347 => 123,  343 => 122,  340 => 121,  334 => 118,  330 => 117,  325 => 115,  322 => 114,  316 => 111,  312 => 110,  307 => 108,  304 => 107,  302 => 106,  299 => 105,  294 => 104,  287 => 102,  274 => 101,  266 => 97,  263 => 96,  245 => 95,  242 => 94,  235 => 90,  231 => 89,  222 => 82,  217 => 81,  211 => 77,  206 => 74,  203 => 73,  200 => 72,  197 => 71,  194 => 70,  191 => 69,  189 => 68,  175 => 57,  165 => 50,  162 => 49,  160 => 48,  143 => 34,  129 => 23,  124 => 22,  118 => 20,  116 => 19,  112 => 18,  104 => 13,  100 => 12,  90 => 4,  80 => 3,  59 => 2,  36 => 1,);
+        return array (  396 => 145,  382 => 136,  379 => 135,  373 => 133,  371 => 132,  368 => 131,  363 => 130,  360 => 129,  358 => 128,  351 => 124,  347 => 123,  343 => 122,  340 => 121,  334 => 118,  330 => 117,  325 => 115,  322 => 114,  316 => 111,  312 => 110,  307 => 108,  304 => 107,  302 => 106,  299 => 105,  294 => 104,  287 => 102,  274 => 101,  266 => 97,  263 => 96,  245 => 95,  242 => 94,  235 => 90,  231 => 89,  222 => 82,  217 => 81,  211 => 77,  206 => 74,  203 => 73,  200 => 72,  197 => 71,  194 => 70,  191 => 69,  189 => 68,  175 => 57,  165 => 50,  162 => 49,  160 => 48,  143 => 34,  129 => 23,  124 => 22,  118 => 20,  116 => 19,  112 => 18,  104 => 13,  100 => 12,  90 => 4,  80 => 3,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -562,9 +560,7 @@ class __TwigTemplate_18a0b00c9b2268fd26f3ca63ce368d2d9e35c9dd1a40c40b8b6e6ad16df
 
                                     {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
                                     {% if (app.user.username == commentaire.idUser ) and ( is_granted('ROLE_ADMIN') == false) %}
-                                        <a href=\"{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}\">Delete</a>
-
-                                        {% endif %}
+                                        <a href=\"{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}\">Dele{% endif %}
 
                             {% if is_granted('ROLE_ADMIN') %}
                                 <a href=\"{{ path('commentaire_deleteFront', {'id': commentaire.id }) }}\">Delete</a>

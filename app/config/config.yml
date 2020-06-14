@@ -128,3 +128,7 @@ fm_elfinder:
                         upload_max_size: 50M # also file upload sizes restricted in php.ini
                         #attributes: example of setting attributes permission
                         #    - { pattern: '/(.*?)/', read: true, write: false, locked: true }
+
+cmen_google_charts:
+    version: "current"
+    language: "fr"
