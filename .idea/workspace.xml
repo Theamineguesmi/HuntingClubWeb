@@ -3,12 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="09223580-94ba-40ee-8101-203968f3d09d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/article/frontPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/article/frontPost.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/article/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/article/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/article/stat.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/article/stat.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlogBundle/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlogBundle/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/3/0/hm1NJt6L7Vy7fnFEZ5yj" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/3/0/hm1NJt6L7Vy7fnFEZ5yj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/A/4/SmyIYFVQO0t8VQNEsGMK" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/A/4/SmyIYFVQO0t8VQNEsGMK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/B/Z/Pv2b+Rb5aIA5nfTrXtM3" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/B/Z/Pv2b+Rb5aIA5nfTrXtM3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/F/O/LRj-FFGWZLFDAz2k00WH" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/F/O/LRj-FFGWZLFDAz2k00WH" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/L/+/LWRDq8PoYMIKB06fQt32" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/L/+/LWRDq8PoYMIKB06fQt32" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/L/S/hFdtiu4zcV0X4+mGbcA9" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/L/S/hFdtiu4zcV0X4+mGbcA9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/O/H/66H+rLycfxf2oSwRpYoO" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/O/H/66H+rLycfxf2oSwRpYoO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/P/M/GZhY4JA0Ay+oecq7KYqx" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/P/M/GZhY4JA0Ay+oecq7KYqx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/Q/8/ULPlp0s0+uT3+Qqpxsxg" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/Q/8/ULPlp0s0+uT3+Qqpxsxg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/Q/S/eAz7pQD1ZeT-QYR6XbV7" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/Q/S/eAz7pQD1ZeT-QYR6XbV7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/W/D/U9o5UfZjnNs47Ap4qAb4" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/pools/5err--KBhU/W/D/U9o5UfZjnNs47Ap4qAb4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/logs/prod.log" beforeDir="false" afterPath="$PROJECT_DIR$/var/logs/prod.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +273,7 @@
       <workItem from="1591508804507" duration="26000" />
       <workItem from="1591508841828" duration="3542000" />
       <workItem from="1592157293199" duration="6165000" />
+      <workItem from="1592295684922" duration="10079000" />
     </task>
     <servers />
   </component>
@@ -425,9 +440,10 @@
     </state>
     <state x="-753" y="551" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590255203993" />
     <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1590096607183" />
-    <state x="-674" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591234629150">
-      <screen x="-1080" y="0" width="1080" height="1890" />
+    <state x="-674" y="-73" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592383276193">
+      <screen x="-1080" y="-832" width="1080" height="1890" />
     </state>
+    <state x="-674" y="-73" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1080.-832.1080.1890@-1080.-832.1080.1890" timestamp="1592383276193" />
     <state x="-674" y="759" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591234629150" />
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1590495238046" />
     <state x="502" y="49" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1585806660685">
@@ -438,11 +454,11 @@
       <screen x="-1080" y="0" width="1080" height="1890" />
     </state>
     <state x="-922" y="589" width="655" height="804" key="find.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1590254099570" />
-    <state x="-842" y="-347" width="672" height="1535" key="run.anything.popup" timestamp="1591869489798">
-      <screen x="-1080" y="-832" width="1080" height="1890" />
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup" timestamp="1592313513184">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-842" y="-347" width="672" height="1535" key="run.anything.popup/0.0.1536.834/-1080.-832.1080.1890@-1080.-832.1080.1890" timestamp="1591869489798" />
-    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1591502321061" />
+    <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.-832.1080.1890@0.0.1536.834" timestamp="1592313513184" />
     <state x="-716" y="611" width="672" height="1615" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@-1080.0.1080.1890" timestamp="1591392441290" />
     <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834/-1080.0.1080.1890@0.0.1536.834" timestamp="1591403171233" />
     <state x="338" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1590492781919" />

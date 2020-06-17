@@ -162,7 +162,7 @@ class ArticleController extends Controller
     /**
      * Creates a new article entity.
      *
-     * @Route("/stat", name="article_stat")
+     * @Route("/admin/stat", name="article_stat")
      * @Method({"GET", "POST"})
      */
     public function statistiqueAction() {
@@ -188,6 +188,7 @@ class ArticleController extends Controller
         $pieChart->getOptions()->setTitle('Article les plus commenter');
         $pieChart->getOptions()->setHeight(500);
         $pieChart->getOptions()->setWidth(600);
+
         $pieChart->getOptions()->getTitleTextStyle()->setBold(true);
         $pieChart->getOptions()->getTitleTextStyle()->setColor('#000000');
         $pieChart->getOptions()->getTitleTextStyle()->setItalic(true);
@@ -195,8 +196,39 @@ class ArticleController extends Controller
         $pieChart->getOptions()->getTitleTextStyle()->setFontSize(20);
 
 
-        return $this->render('article/stat.html.twig',
-            array('piechart' => $pieChart)
+
+
+
+        $DM   = $this->get( 'doctrine' )->getManager();
+        $repo = $DM->getRepository( 'BlogBundle:Article' );
+        $articles = $repo->createQueryBuilder( 'a' )
+            ->select( 'a' )
+
+            ->orderBy( 'a.id','DESC' )
+
+            ->getQuery()
+            ->getResult();
+
+        $DM   = $this->get( 'doctrine' )->getManager();
+        $repo = $DM->getRepository( 'BlogBundle:Commentaire' );
+        $commentaire = $repo->createQueryBuilder( 'a' )
+            ->select( 'a' )
+
+            ->orderBy( 'a.id','DESC' )
+
+            ->getQuery()
+            ->getResult();
+       // $articles = $em->getRepository('BlogBundle:Article')->findAll();
+
+
+
+
+        return $this->render('article/stat.html.twig', array(
+            'piechart' => $pieChart,
+            'articles' => $articles,
+            'commentaires' => $commentaire,
+            )
+
 
         );
     }

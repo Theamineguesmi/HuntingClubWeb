@@ -32,6 +32,9 @@
             </div>
             <div class="col-lg-9"">
             <p align="left">{{ article.contenu|raw  }}</p>
+            {% if article.datemodif != null %}
+            <p>derniére modification {{ article.datemodif }}</p>
+            {% endif %}
         </div>
         </div>
         <div class="row">

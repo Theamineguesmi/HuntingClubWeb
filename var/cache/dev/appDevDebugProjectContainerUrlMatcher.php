@@ -184,14 +184,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::newAction',  '_route' => 'article_new',);
             }
 
-            // article_stat
-            if ('/blog/stat' === $pathinfo) {
-                return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::statistiqueAction',  '_route' => 'article_stat',);
-            }
+            if (0 === strpos($pathinfo, '/blog/admin')) {
+                // article_stat
+                if ('/blog/admin/stat' === $pathinfo) {
+                    return array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::statistiqueAction',  '_route' => 'article_stat',);
+                }
 
-            // article_show
-            if (0 === strpos($pathinfo, '/blog/admin') && preg_match('#^/blog/admin/(?P<id>[^/]++)$#sD', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, ['_route' => 'article_show']), array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::showAction',));
+                // article_show
+                if (preg_match('#^/blog/admin/(?P<id>[^/]++)$#sD', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, ['_route' => 'article_show']), array (  '_controller' => 'BlogBundle\\Controller\\ArticleController::showAction',));
+                }
+
             }
 
             // article_post
